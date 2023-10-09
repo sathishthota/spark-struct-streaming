@@ -10,7 +10,8 @@ libraryDependencies ++= Seq(
   "org.apache.spark" %% "spark-core" % sparkVersion,
   "org.apache.spark" %% "spark-sql" % sparkVersion,
   "org.apache.spark" %% "spark-mllib" % sparkVersion,
-  "org.apache.spark" %% "spark-sql-kafka-0-10" % sparkVersion
+  "org.apache.spark" %% "spark-sql-kafka-0-10" % sparkVersion,
+  "com.microsoft.sqlserver" % "mssql-jdbc" % "12.4.1.jre11"
 )
 
 lazy val root = (project in file("."))
